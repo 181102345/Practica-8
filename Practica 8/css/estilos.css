@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+.areaPrincipal{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#encabezado{
+background: #d0e6f8;
+height: 240px;
+text-align: center;
+background-image: url("../img/logo.png");
+background-repeat: no-repeat;
+background-size: 180px 180px;
+}
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #75C0E0;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(60, 153, 141);
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(1, 6, 15);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: cadetblue;
+}
+#datos{
+    width: 80%;
+    background-color: rgb(162, 255, 0);
+    height: 400px;
+    margin: auto;
+    opacity: 1;
+    color: rgb(0, 26, 255);
+    padding: 10px;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img1{
+    height: 220px;
+    margin: auto;
+    display: block;
+}
+
+/*--inicio nosotros--*/
+.areaPrincipa1l{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#datos1{
+    width: 80%;
+    background-color: rgb(162, 255, 0);
+    height: 400px;
+    margin: auto;
+    color: rgb(0, 26, 255);
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img2{
+    height: 220px;
+    margin: auto;
+    display: block;
+}
+/*--Fin de nosotros--*/
+
+/*--inicio de catalogo--*/
+.o{
+    height: 150px;
+    width: 262px;
+}
+td{
+    text-align: center;
+}
+/*--Fin de catalogo--*/
+
+/*--inicio de galeria--*/
+.a{
+    height: 298px;
+    width: 480px;
+}
+/*--fin de galeria--*/
